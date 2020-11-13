@@ -26,7 +26,7 @@ public class CalculatorTest {
     @Disabled
     @Test
     void testMultiply() {
-        assertEquals(1, calculator.divide(2,2));
+        assertEquals(4, calculator.multiply(2,2));
     }
 
     @Test
